@@ -61,29 +61,22 @@ These values formed the feature vector for clustering.
 ## Visual Results
 
 ### Multi-Face Detection
-
 <img width="1146" height="791" alt="image" src="https://github.com/user-attachments/assets/3ecec75b-1007-4623-b5dc-acf7fb2a9d8a" />
 
-
 ### Template Face Detection
-
-![Template Detection](images/template_face_detection.png)
+![template_face_detection](https://github.com/user-attachments/assets/be6decb8-3cb9-422f-9956-5a973b67f447)
 
 ### HSV Feature Distribution (With Face Thumbnails)
-
-![HSV Scatter with Faces](images/hsv_scatter_faces.png)
+![hsv_scatter_faces](https://github.com/user-attachments/assets/367405db-a2cd-4cb5-afca-10f4a359f737)
 
 ### Clustered Faces with Centroids
-
-![Clustered Faces](images/clusters_centroids.png)
+![clusters_centroids](https://github.com/user-attachments/assets/0005e1d2-c094-4fd7-8efd-90b3b76e75d2)
 
 ### Clusters with Template (Image Overlay)
-
-![Clusters with Template](images/clusters_with_template.png)
+![clusters_with_template](https://github.com/user-attachments/assets/336fa108-b990-411b-aa75-46fa8f5764a4)
 
 ### Final Classification Plot
-
-![Final Classification](images/final_clusters_template.png)
+![final_clusters_template](https://github.com/user-attachments/assets/3f051363-9ed3-4608-a8cb-d15997416383)
 
 ## Key Observations
 
