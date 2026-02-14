@@ -64,19 +64,19 @@ These values formed the feature vector for clustering.
 <img width="1146" height="791" alt="image" src="https://github.com/user-attachments/assets/3ecec75b-1007-4623-b5dc-acf7fb2a9d8a" />
 
 ### Template Face Detection
-![template_face_detection](https://github.com/user-attachments/assets/be6decb8-3cb9-422f-9956-5a973b67f447)
+<img width="737" height="755" alt="image" src="https://github.com/user-attachments/assets/e5176dcd-1e2a-4a7e-9233-c9beeb0005c6" />
 
 ### HSV Feature Distribution (With Face Thumbnails)
-![hsv_scatter_faces](https://github.com/user-attachments/assets/367405db-a2cd-4cb5-afca-10f4a359f737)
+<img width="1005" height="547" alt="image" src="https://github.com/user-attachments/assets/6586f234-ba4c-4f89-8f73-922471f5759d" />
 
 ### Clustered Faces with Centroids
-![clusters_centroids](https://github.com/user-attachments/assets/0005e1d2-c094-4fd7-8efd-90b3b76e75d2)
+<img width="1005" height="547" alt="image" src="https://github.com/user-attachments/assets/a7a33c40-22a2-4269-8137-97710ddc3e1e" />
 
 ### Clusters with Template (Image Overlay)
-![clusters_with_template](https://github.com/user-attachments/assets/336fa108-b990-411b-aa75-46fa8f5764a4)
+<img width="1005" height="547" alt="image" src="https://github.com/user-attachments/assets/04745344-e8e4-484a-9c72-5a63de53deff" />
 
 ### Final Classification Plot
-![final_clusters_template](https://github.com/user-attachments/assets/3f051363-9ed3-4608-a8cb-d15997416383)
+<img width="1005" height="547" alt="image" src="https://github.com/user-attachments/assets/eacac339-b560-4d66-b4d9-f92d153b0f7b" />
 
 ## Key Observations
 
