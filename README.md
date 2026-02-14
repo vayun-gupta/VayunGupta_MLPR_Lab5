@@ -62,7 +62,8 @@ These values formed the feature vector for clustering.
 
 ### Multi-Face Detection
 
-![Multi Face Detection](images/multi_face_detection.png)
+<img width="1146" height="791" alt="image" src="https://github.com/user-attachments/assets/3ecec75b-1007-4623-b5dc-acf7fb2a9d8a" />
+
 
 ### Template Face Detection
 
