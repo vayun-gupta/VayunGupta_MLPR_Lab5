@@ -88,8 +88,6 @@ These values formed the feature vector for clustering.
 
 ## Conclusion
 
-This lab successfully combined computer vision and distance-based machine learning techniques.
-
 The workflow demonstrated:
 
 1. Object detection  
@@ -98,7 +96,7 @@ The workflow demonstrated:
 4. Distance-based classification  
 5. Visualization of results  
 
-It provided practical understanding of how distance metrics and clustering algorithms can be applied to image analysis tasks.
+It provided practical understanding of how distance metrics and clustering algorithms can be applied to image analysis tasks. You can check the ipynb file to see the report of the lab.
 
 ## Author
 
