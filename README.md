@@ -1,87 +1,110 @@
-# MLPR Lab-5
+# MLPR Lab 5
 
-## Repository Overview
+## Overview
 
-This repository contains my completed Jupyter Notebook for MLPR Lab 5. The notebook includes:
+This project demonstrates face detection, feature extraction, clustering, and distance-based classification.
 
-- Implementation of K-Nearest Neighbors (KNN)
-- Use of different distance metrics
-- Cross-validation for model evaluation
-- Bias-variance analysis
-- Code outputs, visualizations, and report answers
+The complete workflow includes:
 
-The repository is public and contains all required code, outputs, analysis, and explanations.
+- Haar Cascade Face Detection
+- HSV Feature Extraction (Mean Hue & Mean Saturation)
+- KMeans Clustering
+- Euclidean Distance-Based Classification
+- Multiple Visualizations
 
-## Aim of the Assignment
+All implementations and outputs are included in the Jupyter Notebook.
 
-The aim of this lab was to understand and implement distance-based classification methods, especially the K-Nearest Neighbors (KNN) algorithm. The objective was to:
+## Aim of the Lab
 
-- Explore different distance metrics
-- Evaluate model performance
-- Understand the effect of different values of K
-- Analyze bias and variance in KNN
-- Use cross-validation to improve reliability
+The objective of this lab was to:
+
+- Detect multiple faces in a group image
+- Extract meaningful color features from each face
+- Perform clustering using a distance-based algorithm
+- Classify a new template image using nearest centroid
+- Visualize clustering and classification results
 
 ## Methodology
 
-### 1. Data Preprocessing
-- Loaded the dataset
-- Checked for missing values
-- Performed feature scaling where necessary
-- Split data into training and testing sets
+### Face Detection
 
-### 2. Model Implementation
-- Implemented KNN classifier
-- Tested multiple values of **K**
-- Compared different distance metrics such as:
-  - Euclidean
-  - Manhattan
-  - Minkowski
+- Converted group image to grayscale
+- Applied Haar Cascade classifier
+- Detected 30 faces
+- Drew bounding boxes
 
-### 3. Model Evaluation
-- Calculated accuracy scores
-- Generated confusion matrix
-- Used cross-validation for better performance estimation
-- Compared training vs testing accuracy to study bias and variance
+### Feature Extraction
 
-## Visualizations
+For each detected face:
 
-Refer to the images folder in the repository
+- Converted face region to HSV color space
+- Extracted:
+  - Mean Hue
+  - Mean Saturation
 
-## Key Findings
+These values formed the feature vector for clustering.
 
-- Smaller values of K resulted in low bias but high variance.
-- Larger values of K produced smoother decision boundaries but slightly increased bias.
-- Euclidean distance performed well for scaled numerical data.
-- Cross-validation gave a more stable estimate of model accuracy compared to a single train-test split.
-- Feature scaling significantly improved performance.
+### KMeans Clustering
 
-## Bias-Variance Observation
+- Used 2 clusters
+- Applied Euclidean distance
+- Computed cluster centers (centroids)
+- Assigned faces to clusters
 
-- **Low K (e.g., 1–3):**
-  - Very sensitive to noise
-  - High variance
-  - Risk of overfitting
+### Template Classification
 
-- **High K:**
-  - More stable predictions
-  - Higher bias
-  - Risk of underfitting
+- Loaded template face image
+- Extracted HSV features
+- Calculated Euclidean distance from centroids
+- Assigned template to nearest cluster
 
-Choosing an optimal K balances both bias and variance.
+## Visual Results
+
+### Multi-Face Detection
+
+![Multi Face Detection](images/multi_face_detection.png)
+
+### Template Face Detection
+
+![Template Detection](images/template_face_detection.png)
+
+### HSV Feature Distribution (With Face Thumbnails)
+
+![HSV Scatter with Faces](images/hsv_scatter_faces.png)
+
+### Clustered Faces with Centroids
+
+![Clustered Faces](images/clusters_centroids.png)
+
+### Clusters with Template (Image Overlay)
+
+![Clusters with Template](images/clusters_with_template.png)
+
+### Final Classification Plot
+
+![Final Classification](images/final_clusters_template.png)
+
+## Key Observations
+
+- Haar Cascade effectively detected multiple faces.
+- HSV color space provided meaningful clustering features.
+- KMeans separated faces into two distinct groups.
+- Template classification was performed using Euclidean distance.
+- Visualization helped interpret cluster separation clearly.
 
 ## Conclusion
 
-This lab helped in understanding how distance-based algorithms work in practice. KNN is simple yet powerful, but its performance depends heavily on:
+This lab successfully combined computer vision and distance-based machine learning techniques.
 
-- Choice of distance metric
-- Proper scaling of features
-- Selection of K
-- Use of cross-validation
+The workflow demonstrated:
 
-Overall, the experiment demonstrated the importance of model tuning and validation to achieve reliable results.
+1. Object detection  
+2. Feature engineering  
+3. Unsupervised clustering  
+4. Distance-based classification  
+5. Visualization of results  
 
-
+It provided practical understanding of how distance metrics and clustering algorithms can be applied to image analysis tasks.
 
 ## Author
 
